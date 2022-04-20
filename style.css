@@ -1,0 +1,28 @@
+#take_Snapshot:hover
+{
+    background-color:aquamarine;
+    color:darkgoldenrod;
+}
+#take_Snapshot
+{
+ animation-name: cool;
+animation-duration: 56s;
+animation-iteration-count: infinite;
+}
+@keyframes cool{
+    0%{box-shadow: 1px 1px 38px red;}
+    15%{box-shadow: 1px 1px 38px coral;}
+    30%{box-shadow: 1px 1px 38px yellow;}
+    45%{box-shadow: 1px 1px 38px green;}
+    60%{box-shadow: 1px 1px 38px blue;}
+    75%{box-shadow: 1px 1px 38px indigo;}
+    90%{box-shadow: 1px 1px 38px violet;}
+    100%{box-shadow: 1px 1px 38px turquoise;}
+}
+canvas
+{
+animation-name: cool;
+animation-duration: 8s;
+animation-iteration-count: infinite;
+border-radius: 25px;
+}
